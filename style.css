@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+p {
+    font-family:url("/digital-7/digital-7\ \(mono\ italic\).ttf") ;
+    padding-top: 200px;
+    font-size: 5rem;
+    color: green;
+}
+
+h3 {
+
+}
+
+.width, .width1, .width2 {
+  background-color: black;
+  position: absolute;
+  top:auto;
+  border: purple solid;
+  height: 500px;
+  text-align: center;
+  
+}
+
+.btn-group {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+}
+
+.btn1,.btn2, .btn3{
+    width:15%;
+}
+
+
+/* the current time */
+.row, #time-now{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: blue;
+}
